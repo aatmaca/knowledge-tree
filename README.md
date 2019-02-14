@@ -1,4 +1,4 @@
-# KnowledgeTree
+# Knowledge Tree
 
 // Mastery is the interface that represents a user's mastery tree.
 
