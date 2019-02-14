@@ -13,7 +13,7 @@ func (by By) Sort(nodes []*NodeStruct) {
 	sort.Sort(ps)
 }
 
-// planetSorter joins a By function and a slice of Planets to be sorted.
+// nodeSorter joins a By function and a slice of Nodes to be sorted.
 type nodeSorter struct {
 	nodes []*NodeStruct
 	by    func(p1, p2 *NodeStruct) bool // Closure used in the Less method.
